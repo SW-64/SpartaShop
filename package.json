@@ -1,0 +1,19 @@
+{
+  "name": "spartaShop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.5"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js",
+    "format": "prettier --write *.js **/*.js"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
